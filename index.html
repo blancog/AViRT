@@ -20,33 +20,24 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <script type="text/javascript" src="jquery-1.12.0.min.js"></script> 
     <script>
-        $(document).ready(function(){
-        var height = $( document ).height(); // returns height of HTML document
-        var scroll = (height/100)*40;
-            // hide #back-top first
-            $("#back-top").hide();
-         
-            // fade in #back-top
-            $(function () {
-                $(window).scroll(function () {
-                    if ($(this).scrollTop() > scroll) {
-                        $('#back-top').fadeIn();
-                    } else {
-                        $('#back-top').fadeOut();
-                    }
-                });
-         
-                // scroll body to 0px on click
-                $('#back-top a').click(function () {
-                    $('body,html').animate({
-                        scrollTop: 0
-                    }, 800);
-                    return false;
-                });
-            });
+        jQuery(document).ready(function() {
+        var offset = 220;
+        var duration = 500;
+        jQuery(window).scroll(function() {
+            if (jQuery(this).scrollTop() > offset) {
+                jQuery('.back-to-top').fadeIn(duration);
+            } else {
+                jQuery('.back-to-top').fadeOut(duration);
+            }
         });
-    </script>
-
+        
+        jQuery('.back-to-top').click(function(event) {
+            event.preventDefault();
+            jQuery('html, body').animate({scrollTop: 0}, duration);
+            return false;
+        })
+    });
+  </script>
   </head>
 <!-- NAV BAR -->
   <body id="top">
@@ -177,13 +168,9 @@
         </div>
       </div>
 
-    <div class="row featurette">
-      <div class="col-lg-12" align="right">
-       <p id="back-top">
-        <a href="#top"><span></span>Back to Top</a>
-      </p>
-    </div>
-    </div>
+
+      <a href="#top" class="back-to-top">Back to Top</a>
+
 
 	<hr class="featurette-divider">
 

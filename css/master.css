@@ -8,39 +8,18 @@ strong{
 	font-weight: bold;
 }
 
-#back-top {
-            position: fixed;
-            bottom: 95px;
-            margin-left: -150px;
-        }
-#back-top a {
-    width: 108px;
-    display: block;
-    text-align: center;
-    font: 11px/100% Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 15px;
     text-decoration: none;
-    color: #bbb;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    transition: 1s;
+    color: #000000;
+    background-color: rgba(235, 235, 235, 0.80);
+    font-size: 12px;
+    padding: 1em;
+    display: none;
 }
-#back-top a:hover {
-    color: #000;
-}
-#back-top span {
-    width: 108px;
-    height: 108px;
-    display: block;
-    margin-bottom: 7px;
-    background: #ddd url(upArrow.png) no-repeat center center;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    transition: 1s;
-}
-#back-top a:hover span {
-    background-color: #777;
+
+.back-to-top:hover {    
+    background-color: rgba(135, 135, 135, 0.50);
 }
