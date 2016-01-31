@@ -9,20 +9,47 @@
     <link rel="stylesheet" type="text/css" href="css/master.css">
     <link rel="icon" href="images/favicon_avirt.png">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:700,400' rel='stylesheet' type='text/css'>
+    <link href="css/carousel.css" rel="stylesheet">
 
     <title>Project AViRT</title>
 
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <link href="css/carousel.css" rel="stylesheet">
-    <!-- STYLE -->
-
+    <script type="text/javascript" src="jquery-1.12.0.min.js"></script> 
+    <script>
+        $(document).ready(function(){
+        var height = $( document ).height(); // returns height of HTML document
+        var scroll = (height/100)*40;
+            // hide #back-top first
+            $("#back-top").hide();
+         
+            // fade in #back-top
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > scroll) {
+                        $('#back-top').fadeIn();
+                    } else {
+                        $('#back-top').fadeOut();
+                    }
+                });
+         
+                // scroll body to 0px on click
+                $('#back-top a').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 800);
+                    return false;
+                });
+            });
+        });
+    </script>
 
   </head>
 <!-- NAV BAR -->
-  <body>
+  <body id="top">
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -44,7 +71,6 @@
         </div>
       </nav>
 
-
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item active">
@@ -59,8 +85,7 @@
 
 
     <div class="container marketing">
-      <hr id="about">
-      <div class="row">
+      <div class="row" id="about">
         <div class="col-lg-4" align="center">
           <img class="img-circle" src="images/avirt.png" alt="AViRT Logo" width="150" height="150">
           <h2 align="center">Augemented Virtuality in Real Time</h2>
@@ -84,7 +109,7 @@
       <div class="row featurette" id="team">
 
 	     <div class="col-lg-3" align="center">
-          <img class="img-circle" src="images/lil_g.png" alt="Guillermo Blanco" width="140" height="130">
+          <img class="img-circle" src="images/lil_g.png" alt="Guillermo Blanco" width="140" height="140">
           <h2>Guillermo Blanco</h2>
           <h4>Madrid, Spain</h4>
           <p>3D Environment Technician</p>
@@ -107,7 +132,7 @@
           <img class="img-circle" src="images/alex.jpg" alt="Alex Stamm" width="140" height="140">
           <h2>Alex Stamm</h2>
           <h4>Westfield, In</h4>
-          <p>Project Lead / Compositor / Developer</p>
+          <p>Project Leader / Compositor / Developer</p>
           <p>Purdue University, Computer Graphics Technology</p>
           <a href="mailto:stephen.alex.stamm@gmail.com">stephen.alex.stamm@gmail.com</a> </br>
           </br>
@@ -131,20 +156,34 @@
       <hr class="featurette-divider">
 
       <div class="row featurette" align="center">
-		    <div class="col-lg-6">
+        <div class="col-lg-4" align="center">
+      <a class="twitter-timeline" href="https://twitter.com/eXoTiiiC_" data-widget-id="693836169226883072">Tweets por el @eXoTiiiC_.
+      </a> 
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      </script>
+      </div>
+		    <div class="col-lg-4">
         <h2>Documentation</h2>
       		<a href="images/GoNoGoDocuments.pdf" download><strong>Go No Go PDF</strong></a> <br />
       		<a href="images/ResearchPlan.pdf" download><strong>Research Plan PDF</strong></a> <br />
       		<a href="images/EmergingTechnologyProcess.pdf" download><strong>Emerging Technology PDF</strong></a> <br/>
       		<a href="images/AViRT_Presentation.pdf" download><strong>Slide Deck PDF</strong></a> 
 		    </div>
-		  <div class="col-lg-6" align="center">
+		  <div class="col-lg-4" align="center">
 		  <h2>Useful Links</h2>
             <a href="https://polytechnic.purdue.edu/departments/computer-graphics-technology"><strong>Computer Graphics Technology</strong></a> <br/>
 	         <a href="https://polytechnic.purdue.edu/"><strong>Purdue Polytechnic Institute</strong></a>
 	         <img src="">
         </div>
       </div>
+
+    <div class="row featurette">
+      <div class="col-lg-12" align="right">
+       <p id="back-top">
+        <a href="#top"><span></span>Back to Top</a>
+      </p>
+    </div>
+    </div>
 
 	<hr class="featurette-divider">
 
@@ -153,7 +192,6 @@
 
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
         <p>&copy; 2015 AViRT Inc. </p>
       </footer>
 
@@ -163,5 +201,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
   </body>
 </html>
