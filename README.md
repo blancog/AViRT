@@ -1,12 +1,9 @@
 - Nav bar (no fixed, custom)
 - Añadir paper
 - Añadir contact us
-- Div texto 
-- Foto cristian
 - Cambiar letra/Adobe Kuler
 - Google maps?
 - Javascript
-- Twitter feed
 - Video usando la app
 
 
