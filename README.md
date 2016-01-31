@@ -1,7 +1,6 @@
 - Nav bar (no fixed, custom)
 - Añadir paper
 - Añadir contact us
-- Mas informacion nuestra
 - Div texto 
 - Foto cristian
 - Cambiar letra/Adobe Kuler
