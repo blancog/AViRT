@@ -2,7 +2,6 @@
 - Añadir paper
 - Añadir contact us
 - Mas informacion nuestra
-- Quitar poster
 - Div texto 
 - Foto cristian
 - Cambiar letra/Adobe Kuler
