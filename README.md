@@ -5,6 +5,7 @@
 - Google maps?
 - Javascript
 - Video usando la app
+- Flecha de back to top en images
 
 
 
