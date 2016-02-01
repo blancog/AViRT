@@ -1,10 +1,30 @@
+
+#top {
+	background-color: rgba(235, 235, 235, 0.80);
+}
+
+
+
 p {
     font-family: "Roboto";
-    font-size: 17px;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 strong{
 	font-family: "Roboto";
+	font-weight: bold;
+}
+
+h4{
+	font-family: "Roboto";
+	font-weight: 700;
+	font-weight: bold;
+}
+
+h2{
+	font-family: "Roboto";
+	font-weight: 700;
 	font-weight: bold;
 }
 
@@ -14,8 +34,8 @@ strong{
     right: 15px;
     text-decoration: none;
     color: #000000;
-    background: #27AE61 url("images/arrow.png") no-repeat center 43%;
-    background-color: rgba(235, 235, 235, 0.80);
+   	background: url(arrow.png) no-repeat center 43%;
+    background-color: rgba(235, 235, 235);
     font-size: 12px;
     padding: 1em;
     display: none;
