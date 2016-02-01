@@ -50,7 +50,7 @@ p {
 
 /* Links */
 a {
-    color: #f85c37;
+    color: #f6f5f5;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -62,7 +62,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
+    color: #ffffff;
     text-decoration: none;
     outline: 0;
 }
@@ -92,12 +92,12 @@ a:after {
 	font-size: 14px;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	background-color: #ffffff;
+	background-color: #333333;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #ffffff;
-	background-color: #74cfae;
+	background-color: #981914;
 }
 
 .navbar-brand {
@@ -145,23 +145,30 @@ a:after {
 	font-weight: 400;
 }
 
-/* Green */
-#green {
-	background-color: #74cfae;
-	padding-top: 50px;
-	margin-bottom: 0px;
+/* red */
+#red {
+	background-color: #981914;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	margin-bottom: 10px;
 }
 
-#green h3 {
+#red h3 {
 	color: white;
 	font-weight: 400;
 	margin-bottom: 35px;
 }
 
-#green p {
+#red h4 {
+	color: white;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+#red p {
 	color: white;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 /* Skills */
@@ -193,11 +200,11 @@ a:after {
 	color: #981814;
 }
 
-#social .col-md-3:hover {
+#social .col-md-4:hover {
 	background-color: #e8e8e7;
 }
 
-#social .col-md-3 {
+#social .col-md-4 {
 	padding:30px;
 }
 

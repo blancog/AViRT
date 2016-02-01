@@ -25,3 +25,11 @@ GOOGLE APP INCUBATOR
 - Appropriate narrative including storyboards, etc.
 - Breakdown of your team and its members
 - One pager introducing your past app portfolio and your company profile
+
+
+
+
+NUEVO HTML
+- Actualizar navbar para que las letras sean blancas, el logo sea el de avirt en vez del rayo y añadir las distintas partes de la web.
+- Reañadir el back to top con el simbolo diseñado en photoshop que esta en la carpeta images.
+- 
