@@ -227,3 +227,7 @@ a:after {
 .grid img:hover {
     opacity: 1;
 }
+
+img.icon-nav{
+	padding: 10px;
+}
