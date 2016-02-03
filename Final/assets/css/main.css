@@ -88,10 +88,10 @@ a:after {
 
 
 .navbar {
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 14px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background-color: #333333;
 }
 
@@ -129,8 +129,21 @@ a:after {
 }
 
 /* WRAP SECTIONS */
+#hello {   
+  width:100%;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 2s ease-in-out;
+}
 
-/* hello */
+#hello:hover {
+  zoom: 1;
+  filter: alpha(opacity=100);
+  opacity: 0;
+}
+/* hello 
 #hello {
 	width: 100%;
 	padding-top: 250px;
@@ -147,20 +160,30 @@ a:after {
 #hello h2 {
 	color: #c0c0c0;
 	font-weight: 400;
-}
+}*/
 
 /* red */
 #red {
 	background-color: #981914;
-	padding-top: 100px;
+	padding-top: 50px;
 	padding-bottom: 50px;
 	margin-bottom: 10px;
 }
 
+#red h2 {
+	
+	font-family: "Raleway";
+    font-weight: 300;
+    color: white;
+    margin-bottom: 50px;
+
+}
+
 #red h3 {
-	color: white;
-	font-weight: 400;
-	margin-bottom: 35px;
+	
+	font-family: "Raleway";
+    font-weight: 400;
+    color: white;
 }
 
 #red h4 {
