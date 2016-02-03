@@ -133,7 +133,7 @@ a:after {
 
 #foto {
   background-color: #ffffff;
-  padding: 25px;
+  padding: ;
   height: 830px;
   line-height: 650px;
   top: -300px;
@@ -145,7 +145,7 @@ a:after {
 
   max-width: 1400px;
   max-height: 793px;
-  left:0;
+  left:20px;
   position:absolute;
   vertical-align: middle;
   -webkit-transition: opacity 1s ease-in-out;
