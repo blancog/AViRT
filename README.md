@@ -1,20 +1,14 @@
-- Nav bar (no fixed, custom)
-- Añadir paper
-- Añadir contact us
-- Cambiar letra/Adobe Kuler
-- Google maps?
-- Javascript
-- Video usando la app
-- Flecha de back to top en images
+- Letras en blanco en la navbar
+- Back to the top
+- The team en rojo
+- Javascript con ventana en the team
+- Arreglar el borde de correo en the team
+- Cambiar el contact us
+- Cambiar logo en navbar
 
 
 
-PERFIL
-- Nombre 
-- Nacimiento
-- Rol
-- Alma matter/Carrera
-- Correo
+
 
 
 
@@ -29,7 +23,3 @@ GOOGLE APP INCUBATOR
 
 
 
-NUEVO HTML
-- Actualizar navbar para que las letras sean blancas, el logo sea el de avirt en vez del rayo y añadir las distintas partes de la web.
-- Reañadir el back to top con el simbolo diseñado en photoshop que esta en la carpeta images.
-- 
