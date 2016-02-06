@@ -34,7 +34,7 @@
 
     <!-- FIXED NAVBAR -->
     <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+      <div class="navbar-container">
 
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -44,14 +44,14 @@
             <span class="icon-bar"></span>
 
           </button>
-          <img src="assets/img/avirt.svg" width="100%" max-height="100%">
+          <img src="assets/img/avirt.svg" >
         </div>
 
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
       	  	<li class="myNav"><a href="#">Home</a></li>
-          	<li class="myNav"><a href="#about">About AViRT</a></li>
-          	<li class="myNav"><a href="#team">The Team</a></li>
+          	<li class="myNav"><a href="#about-nav">About AViRT</a></li>
+          	<li class="myNav"><a href="#team-nav">The Team</a></li>
           	<li class="myNav"><a href="#">The App</a></li>
           	<li class="myNav"><a href="#">Schedule</a></li>
             <li class="myNav"><a href="#contact">Contact Us</a></li>
@@ -74,7 +74,7 @@
 	</div>
 
 	<!-- About AViRT -->
-
+	<span class="anchor" id="about-nav"></span>
 	<div id="about">
 
 		<div class="col-lg-8 col-lg-offset-2" align="center">
@@ -85,7 +85,7 @@
 			<div class="row">
 
 			   <div class="col-lg-4" align="center">
-		          <img class="img-circle" src="assets/img/avirt1.png" alt="AViRT" width="80%" >
+		          <img src="assets/img/avirt1.png" alt="AViRT" width="80%" >
 		        </div>
 
 			  <div class="col-lg-8" align="center">
@@ -99,6 +99,7 @@
 
 	
 	<!-- TEAM -->
+	<span class="anchor" id="team-nav"></span>
 	<div id="team">
 
 		<div class="col-lg-8 col-lg-offset-2" align="center">
@@ -108,7 +109,7 @@
 		<div class="container">
 			<div class="row">
 
-				<a href="#skills">
+				<a href="#open-modal-Guillermo">
 				   <div class="col-lg-3" align="center">
 				   	
 			          <img class="img-circle" src="assets/img/guillermoWeb.jpg" alt="Guillermo Blanco" width="160" height="160">
@@ -209,13 +210,13 @@
 		</div>
 	</div>
 
-
-	<div id="skills" class="modalDialog">
-		<div class="container">
-			<div class="row centered">
+<div id="open-modal-Guillermo" class="modalDialog">
+		<div>
+			<div class="container">
+			<div class="row-centered">
 				<a href="#close" title="close" class="close">X</a>
-				<h3>OUR SKILLS</h3>
-				<div class="col-lg-3 mt">
+				<h3>Guillermo's Skills</h3>
+				<div class="col-sm-3 mt">
 					<canvas id="javascript" height="130" width="130"></canvas>
 					<p>Javascript</p>
 					<br>
@@ -233,7 +234,7 @@
 							var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
 					</script>
 				</div>
-				<div class="col-lg-3 mt">
+				<div class="col-sm-3 mt">
 					<canvas id="bootstrap" height="130" width="130"></canvas>
 					<p>Bootstrap</p>
 					<br>
@@ -251,7 +252,7 @@
 							var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
 					</script>
 				</div>
-				<div class="col-lg-3 mt">
+				<div class="col-sm-3 mt">
 					<canvas id="wordpress" height="130" width="130"></canvas>
 					<p>Wordpress</p>
 					<br>
@@ -269,7 +270,7 @@
 							var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
 					</script>
 				</div>
-				<div class="col-lg-3 mt">
+				<div class="col-sm-3 mt">
 					<canvas id="photoshop" height="130" width="130"></canvas>
 					<p>Photoshop</p>
 					<br>
@@ -287,9 +288,258 @@
 							var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
 					</script>
 				</div>
-			</div><!-- /row -->
-		</div><!-- /container -->
-	</div><!-- /skills -->
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="open-modal-Patrick" class="modalDialog">
+		<div>
+			<div class="container">
+			<div class="row-centered">
+				<a href="#close" title="close" class="close">X</a>
+				<h3>Patrick's Skills</h3>
+				<div class="col-sm-3 mt">
+					<canvas id="javascriptPatrick" height="130" width="130"></canvas>
+					<p>Javascript</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 70,
+									color:"#74cfae"
+								},
+								{
+									value : 30,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("javascriptPatrick").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-sm-3 mt">
+					<canvas id="bootstrapPatrick" height="130" width="130"></canvas>
+					<p>Bootstrap</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 90,
+									color:"#74cfae"
+								},
+								{
+									value : 10,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("bootstrapPatrick").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-sm-3 mt">
+					<canvas id="wordpressPatrick" height="130" width="130"></canvas>
+					<p>Wordpress</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 65,
+									color:"#74cfae"
+								},
+								{
+									value : 35,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("wordpressPatrick").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-sm-3 mt">
+					<canvas id="photoshopPatrick" height="130" width="130"></canvas>
+					<p>Photoshop</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 50,
+									color:"#74cfae"
+								},
+								{
+									value : 50,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("photoshopPatrick").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<div id="open-modal-Alex" class="modalDialog">
+  		<div>
+			<div class="container">
+			<div class="row-centered">
+				<a href="#close" title="close" class="close">X</a>
+				<h3>Alex's Skills</h3>
+				<div class="col-sm-3 mt">
+					<canvas id="javascriptAlex" height="130" width="130"></canvas>
+					<p>Javascript</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 70,
+									color:"#74cfae"
+								},
+								{
+									value : 30,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("javascriptAlex").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-sm-3 mt">
+					<canvas id="bootstrapAlex" height="130" width="130"></canvas>
+					<p>Bootstrap</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 90,
+									color:"#74cfae"
+								},
+								{
+									value : 10,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("bootstrapAlex").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-sm-3 mt">
+					<canvas id="wordpressAlex" height="130" width="130"></canvas>
+					<p>Wordpress</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 65,
+									color:"#74cfae"
+								},
+								{
+									value : 35,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("wordpressAlex").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-sm-3 mt">
+					<canvas id="photoshopAlex" height="130" width="130"></canvas>
+					<p>Photoshop</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 50,
+									color:"#74cfae"
+								},
+								{
+									value : 50,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("photoshopAlex").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<div id="open-modal-Cristian" class="modalDialog">
+  		<div>
+			<div class="container">
+			<div class="row-centered">
+				<a href="#close" title="close" class="close">X</a>
+				<h3>Cristian's Skills</h3>
+				<div class="col-sm-3 mt">
+					<canvas id="javascriptCristian" height="130" width="130"></canvas>
+					<p>Javascript</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 70,
+									color:"#74cfae"
+								},
+								{
+									value : 30,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("javascriptCristian").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-sm-3 mt">
+					<canvas id="bootstrapCristian" height="130" width="130"></canvas>
+					<p>Bootstrap</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 90,
+									color:"#74cfae"
+								},
+								{
+									value : 10,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("bootstrapCristian").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-sm-3 mt">
+					<canvas id="wordpressCristian" height="130" width="130"></canvas>
+					<p>Wordpress</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 65,
+									color:"#74cfae"
+								},
+								{
+									value : 35,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("wordpressCristian").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-sm-3 mt">
+					<canvas id="photoshopCristian" height="130" width="130"></canvas>
+					<p>Photoshop</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 50,
+									color:"#74cfae"
+								},
+								{
+									value : 50,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("photoshopCristian").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
 	
 	<section id="contact"></section>
 	<div id="social">
@@ -309,38 +559,6 @@
 			</div>
 		</div><!-- /container -->
 	</div><!-- /social -->
-
-	<div id="open-modal-Guille" class="modalDialog">
-  		<div>
-  			<a href="#close" title="close" class="close">X</a>
-  			<h2>Modal Box</h2>
-  			<p>This a Guillermo</p>
-		</div>
-	</div>
-
-	<div id="open-modal-Patrick" class="modalDialog">
-  		<div>
-  			<a href="#close" title="close" class="close">X</a>
-  			<h2>Modal Box</h2>
-  			<p>This a Patrick</p>
-		</div>
-	</div>
-
-	<div id="open-modal-Alex" class="modalDialog">
-  		<div>
-  			<a href="#close" title="close" class="close">X</a>
-  			<h2>Modal Box</h2>
-  			<p>This a Alex</p>
-		</div>
-	</div>
-
-	<div id="open-modal-Cristian" class="modalDialog">
-  		<div>
-  			<a href="#close" title="close" class="close">X</a>
-  			<h2>Modal Box</h2>
-  			<p>This a Cristian</p>
-		</div>
-	</div>
 
 <!-- FIN TEAM Prueba -->
 	<div id="f">

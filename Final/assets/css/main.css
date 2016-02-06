@@ -18,7 +18,7 @@ html{
 	 height:100%;
 }
 body {
-  background-color: #f6f5f5;
+  	background-color: #f6f5f5;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
@@ -101,7 +101,6 @@ a:after {
 	padding-bottom: 7px;
 	background-color: #333333;
 	margin-bottom:0;
-	max-height:100px;
 }
 
 .navbar ul{
@@ -142,8 +141,6 @@ a:after {
 }
 
 
-/* Prueba*/
-
 .modalDialog {
 	position: fixed;
 	font-family: Arial, Helvetica, sans-serif;
@@ -166,7 +163,7 @@ a:after {
 }
 
 .modalDialog > div {
-	width: 400px;
+	width: 90%;
 	position: relative;
 	margin: 10% auto;
 	padding: 5px 20px 13px 20px;
@@ -176,8 +173,8 @@ a:after {
 }
 
 .close {
-	background: #606061;
-	color: #FFFFFF;
+	background: #000000;
+	color: #000000;
 	line-height: 25px;
 	position: absolute;
 	right: -12px;
@@ -286,7 +283,7 @@ a:after {
   margin: 0;
   padding: 15px;
   width:100%;
-  min-height:100%;
+  min-height:110%;
   position:static;
   left:0;
   right:0;
@@ -306,7 +303,6 @@ a:after {
  /* vertical-align: middle;*/
   margin: 0;
   max-width:100%;
-  max-height:100%;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
@@ -326,10 +322,13 @@ a:after {
 #about {
 	background-color: #981814;
 	padding-top: 50px;
+	margin-top: -50px;
 	padding-bottom: 50px;
 	margin: 0;
 	width:100%;
+	position:relative;
 }
+
 #about h2 {
 	
 	font-family: "Raleway";
@@ -493,4 +492,16 @@ img.icon-nav{
 
 #team a{
 	background-color: #f6f5f5;
+}
+
+.navbar-container{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.anchor{
+  display: block;
+  height: 40px; /*same height as header*/
+  margin-top: -40px; /*same height as header*/
+  visibility: hidden;
 }
