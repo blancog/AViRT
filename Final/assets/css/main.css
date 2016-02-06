@@ -465,6 +465,22 @@ img.icon-nav{
   position: relative;
   min-height: 1px;
   padding-right: 15px;
+  padding-top:15px;
   padding-left: 15px;
-  background-color: #FFFFFF;/* Color */
+  border-radius: 5px;
+  background: rgba(252,8,0,0.6);
+	-webkit-transition: background 0.4s ease-in;
+        -moz-transition: background 0.4s ease-in;
+        transition: background 0.4s ease-in;
+}
+
+.col-lg-3:hover p{
+	color: white;
+}
+#team a{
+	background-color: #f6f5f5;
+}
+
+#team a:hover{
+	background: rgba(252,8,0,0.6);
 }
