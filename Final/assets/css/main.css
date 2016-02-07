@@ -114,6 +114,7 @@ a:after {
 
 .navbar-default .navbar-nav > .myNav > a:hover {
 	color:white;
+	border-radius: 5px;
 	background: rgba(252,8,0,0.6);
 	-webkit-transition: background 0.2s ease-in;
     -moz-transition: background 0.2s ease-in;
