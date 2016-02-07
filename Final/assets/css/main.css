@@ -113,11 +113,11 @@ a:after {
 }
 
 .navbar-default .navbar-nav > .myNav > a:hover {
-
+	color:white;
 	background: rgba(252,8,0,0.6);
-	-webkit-transition: background 0.3s ease-in;
-    -moz-transition: background 0.3s ease-in;
-    transition: background 0.3s ease-in;
+	-webkit-transition: background 0.2s ease-in;
+    -moz-transition: background 0.2s ease-in;
+    transition: background 0.2s ease-in;
 }
 
 .navbar-brand {
@@ -475,7 +475,7 @@ img.icon-nav{
 	padding: 10px;
 }
 
-.col-lg-3:hover{
+#team .col-lg-3:hover{
   position: relative;
   min-height: 1px;
   padding-right: 15px;
@@ -484,8 +484,8 @@ img.icon-nav{
   border-radius: 5px;
   background: rgba(252,8,0,0.7);
 	-webkit-transition: background 0.4s ease-in;
-        -moz-transition: background 0.4s ease-in;
-        transition: background 0.4s ease-in;
+    -moz-transition: background 0.4s ease-in;
+    transition: background 0.4s ease-in;
 }
 
 
