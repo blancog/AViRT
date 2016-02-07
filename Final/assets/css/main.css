@@ -323,13 +323,28 @@ a:after {
 	background-color: #981814;
 	padding-top: 50px;
 	margin-top: -50px;
-	padding-bottom: 50px;
+	padding-bottom: 10px;
 	margin: 0;
 	width:100%;
 	position:relative;
 }
 
-#about h2 {
+#about .about-h2 {
+	font-family: "Raleway";
+    font-weight: 300;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#about .about-p {
+	color: white;
+	font-weight: 400;
+	font-size: 18px;
+	margin-right: 10px;
+	margin-left:10px;
+}
+
+#about .about-title {
 	
 	font-family: "Raleway";
     font-weight: 300;
@@ -349,6 +364,7 @@ a:after {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	margin-bottom: 10px;
+	height: 100%;
 }
 
 #team h2 {
@@ -505,3 +521,5 @@ img.icon-nav{
   margin-top: -40px; /*same height as header*/
   visibility: hidden;
 }
+
+
