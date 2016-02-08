@@ -523,4 +523,13 @@ img.icon-nav{
   visibility: hidden;
 }
 
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+#javascript{
+	
+}
 
