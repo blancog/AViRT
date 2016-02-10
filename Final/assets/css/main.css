@@ -164,14 +164,41 @@ a:after {
 }
 
 .modalDialog > div {
-	width: 90%;
+	width: 70%;
 	position: relative;
-	margin: 10% auto;
-	padding: 5px 20px 13px 20px;
+	margin: 15% auto;
 	border-radius: 10px;
 	background: #fff;
 	
 }
+#open-modal-Guillermo h3{
+	margin: 40px;
+}
+#open-modal-Guillermo button{
+	margin-top: -100px;
+}
+
+#open-modal-Patrick h3{
+	margin: 40px;
+}
+#open-modal-Patrick button{
+	margin-top: -100px;
+}
+
+#open-modal-Alex h3{
+	margin: 40px;
+}
+#open-modal-Alex button{
+	margin-top: -100px;
+}
+
+#open-modal-Cristian h3{
+	margin: 40px;
+}
+#open-modal-Cristian button{
+	margin-top: -100px;
+}
+
 
 .close {
 	background: #000000;
