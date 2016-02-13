@@ -53,8 +53,7 @@
       	  	<li class="myNav"><a href="#">Home</a></li>
           	<li class="myNav"><a href="#about-nav">About AViRT</a></li>
           	<li class="myNav"><a href="#team-nav">The Team</a></li>
-          	<li class="myNav"><a href="#">The App</a></li>
-          	<li class="myNav"><a href="#">Schedule</a></li>
+          	<li class="myNav"><a href="#app-nav">The App</a></li>
             <li class="myNav"><a href="#contact">Contact Us</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -132,7 +131,7 @@
 		<div class="container">
 			<div class="row">
 
-				<a href="#open-modal-Guillermo">
+				<a id="guillermoBtn">
 				   <div class="col-lg-3" align="center">
 				   	
 			          <img class="img-circle" src="assets/img/guillermoWeb.jpg" alt="Guillermo Blanco" width="160" height="160">
@@ -145,7 +144,7 @@
 			        </div>
 			        </a>
 			      
-			        <a href="#open-modal-Patrick">
+			        <a id="patrickBtn">
 				  <div class="col-lg-3" align="center">
 				  	
 			          <img class="img-circle" src="assets/img/patrickWeb.jpg" alt="Patrick Teall" width="160" height="160">
@@ -158,7 +157,7 @@
 			      </div>
 			      </a>
 
-				<a href="#open-modal-Alex">
+				<a id="alexBtn">
 				  <div class="col-lg-3" align="center">
 				  	
 			          <img class="img-circle" src="assets/img/alexWeb.jpg" alt="Alex Stamm" width="160" height="160">
@@ -170,7 +169,7 @@
 			      
 			      </div>
 			      </a>
-					<a href="#open-modal-Cristian">
+					<a id="cristianBtn">
 			      <div class="col-lg-3" align="center">
 			      	
 			          <img class="img-circle" src="assets/img/cristianWeb.jpg" alt="Cristian Campo" width="160" height="160">
@@ -189,7 +188,7 @@
 
 
 	<!-- The App -->
-
+	<span class="anchor" id="app-nav"></span>
 	<div id="app">
 
 		<div class="col-lg-8 col-lg-offset-2" align="center">
@@ -233,90 +232,99 @@
 		</div>
 	</div>
 
-<div id="open-modal-Guillermo" class="modalDialog">
-	<div>
-		<a href="#close" title="close" class="close">X</a>
-		<div class="col-lg-8 col-lg-offset-2" align="center">
-			<h3>About Guillermo</h3>
-		</div>	
-			<div class="col-lg-4" align="center">
-				<img class="img-circle" src="assets/img/guillermoWeb.jpg" alt="Guillermo Blanco" width="180" height="180">
-			</div>
-
-			<div class="col-lg-8" align="center">
-				<p>Guillermo has been very interested in design since he was little, but it was not until college when he got to like coding and 3D more and more. He got to know Cristian in high school where they used to practice swimming together thanks to a scholarship. 
-				Guillermo got to study in the US, thanks to a swimming scholarship, where he was able to meet Alex and Patrick. After a little time, they started working together whenever they had group projects. Their last project turned to be the best one, the one they put the most effort on, the one they were the most inspired. He recommended Cristian for the development of the app because of his work ethics.</p>
-			</div>
-		
-		<div class="col-lg-12 mt" align="center">
-			<button type="button" class="btn btn-theme btn-md">Email Guillermo!</button>
-		</div>
-	</div>
+<!-- Modal -->
+<div id="guillermoModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3>About Guillermo</h3>
+            </div>
+            <div class="modal-body">
+                <div class="col-lg-4" align="center">
+					<img class="img-circle" src="assets/img/guillermoWeb.jpg" alt="Guillermo Blanco" width="180" height="180">
+				</div>
+				<div class="col-lg-8" align="center">
+					<p>Guillermo has been very interested in design since he was little, but it was not until college when he got to like coding and 3D more and more. He got to know Cristian in high school where they used to practice swimming together thanks to a scholarship. 
+					Guillermo got to study in the US, thanks to a swimming scholarship, where he was able to meet Alex and Patrick. After a little time, they started working together whenever they had group projects. Their last project turned to be the best one, the one they put the most effort on, the one they were the most inspired. He recommended Cristian for the development of the app because of his work ethics.</p>
+				</div>
+            </div>
+            <div class="modal-footer" align="center">
+				<a href="mailto:gblancobene@gmail.com"> <button type="button" class="btn btn-theme btn-md">Email Guillermo!</button> </a>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div id="open-modal-Patrick" class="modalDialog">
-	<div>
-		<a href="#close" title="close" class="close">X</a>
-		<div class="col-lg-8 col-lg-offset-2" align="center">
-			<h3>About Patrick</h3>
-		</div>	
-			<div class="col-lg-4" align="center">
-				<img class="img-circle" src="assets/img/patrickWeb.jpg" alt="Patrick Teall" width="180" height="180">
-			</div>
-
-			<div class="col-lg-8" align="center">
-				<p>Guillermo has been very interested in design since he was little, but it was not until college when he got to like coding and 3D more and more. He got to know Cristian in high school where they used to practice swimming together thanks to a scholarship. 
-				Guillermo got to study in the US, thanks to a swimming scholarship, where he was able to meet Alex and Patrick. After a little time, they started working together whenever they had group projects. Their last project turned to be the best one, the one they put the most effort on, the one they were the most inspired. He recommended Cristian for the development of the app because of his work ethics.</p>
-			</div>
-		
-		<div class="col-lg-12 mt" align="center">
-			<button type="button" class="btn btn-theme btn-md">Email Patrick!</button>
-		</div>
-	</div>		
+<div id="patrickModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3>About Patrick</h3>
+            </div>
+            <div class="modal-body">
+                <div class="col-lg-4" align="center">
+					<img class="img-circle" src="assets/img/patrickWeb.jpg" alt="Patrick Teall" width="180" height="180">
+				</div>
+				<div class="col-lg-8" align="center">
+					<p>Guillermo has been very interested in design since he was little, but it was not until college when he got to like coding and 3D more and more. He got to know Cristian in high school where they used to practice swimming together thanks to a scholarship. 
+					Guillermo got to study in the US, thanks to a swimming scholarship, where he was able to meet Alex and Patrick. After a little time, they started working together whenever they had group projects. Their last project turned to be the best one, the one they put the most effort on, the one they were the most inspired. He recommended Cristian for the development of the app because of his work ethics.</p>
+				</div>
+            </div>
+            <div class="modal-footer" align="center">
+				<a href="mailto:pteall@purdue.edu"><button type="button" class="btn btn-theme btn-md">Email Patrick!</button></a>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div id="open-modal-Alex" class="modalDialog">
-	<div>
-		<a href="#close" title="close" class="close">X</a>
-		<div class="col-lg-8 col-lg-offset-2" align="center">
-			<h3>About Alex</h3>
-		</div>
-			
-			<div class="col-lg-4" align="center">
-				<img class="img-circle" src="assets/img/alexWeb.jpg" alt="Alex Stamm" width="180" height="180">
-			</div>
-
-			<div class="col-lg-8" align="center">
-				<p>Guillermo has been very interested in design since he was little, but it was not until college when he got to like coding and 3D more and more. He got to know Cristian in high school where they used to practice swimming together thanks to a scholarship. 
-				Guillermo got to study in the US, thanks to a swimming scholarship, where he was able to meet Alex and Patrick. After a little time, they started working together whenever they had group projects. Their last project turned to be the best one, the one they put the most effort on, the one they were the most inspired. He recommended Cristian for the development of the app because of his work ethics.</p>
-			</div>
-		
-		<div class="col-lg-12 mt" align="center">
-				<button type="button" class="btn btn-theme btn-md">Email Alex!</button>
-		</div>
-	</div>
+<div id="alexModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3>About Alex</h3>
+            </div>
+            <div class="modal-body">
+                <div class="col-lg-4" align="center">
+					<img class="img-circle" src="assets/img/alexWeb.jpg" alt="Alex Stamm" width="180" height="180">
+				</div>
+				<div class="col-lg-8" align="center">
+					<p>Guillermo has been very interested in design since he was little, but it was not until college when he got to like coding and 3D more and more. He got to know Cristian in high school where they used to practice swimming together thanks to a scholarship. 
+					Guillermo got to study in the US, thanks to a swimming scholarship, where he was able to meet Alex and Patrick. After a little time, they started working together whenever they had group projects. Their last project turned to be the best one, the one they put the most effort on, the one they were the most inspired. He recommended Cristian for the development of the app because of his work ethics.</p>
+				</div>
+            </div>
+            <div class="modal-footer" align="center">
+				<a href="mailto:stephen.alex.stamm@gmail.com"><button type="button" class="btn btn-theme btn-md">Email Alex!</button></a>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div id="open-modal-Cristian" class="modalDialog">
-	<div>
-		<a href="#close" title="close" class="close">X</a>
-		<div class="col-lg-8 col-lg-offset-2" align="center">
-			<h3>About Cristian</h3>
-		</div>
-			<div class="col-lg-4" align="center">
-				<img class="img-circle" src="assets/img/cristianWeb.jpg" alt="Cristian Campo" width="180" height="180">
-			</div>
-
-			<div class="col-lg-8" align="center">
-				<p>Cristian has been a computer lover since he was 15, when he started to write his first lines of code. He has learnt a variety of code languages like C and Java, which made him able to make his own mobile apps when he was still in college.
-				Despite of programming, his other hobbies are playing video games and swimming, which he gets to share swim team with Guillermo. Whenever he has free time, he spends hours at Guillermo's home getting to develop apps and webpages. He has contributed to create this webpage with his knowledgement and creativity.</p>
-			</div>
-		<div class="col-lg-12 mt" align="center">
-			<button type="button" class="btn btn-theme btn-md">Email Cristian!</button>
-		</div>
-	</div>
+<div id="cristianModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3>About Cristian</h3>
+            </div>
+            <div class="modal-body">
+                <div class="col-lg-4" align="center">
+					<img class="img-circle" src="assets/img/cristianWeb.jpg" alt="Cristian Campo" width="180" height="180">
+				</div>
+				<div class="col-lg-8" align="center">
+					<p>Cristian has been a computer lover since he was 15, when he started to write his first lines of code. He has learnt a variety of code languages like C and Java, which made him able to make his own mobile apps when he was still in college.
+					Despite of programming, his other hobbies are playing video games and swimming, which he gets to share swim team with Guillermo. Whenever he has free time, he spends hours at Guillermo's home getting to develop apps and webpages. He has contributed to create this webpage with his knowledgement and creativity.</p>
+				</div>
+            </div>
+            <div class="modal-footer" align="center">
+				<a href="mailto:cristiancampovos@gmail.com"><button type="button" class="btn btn-theme btn-md">Email Cristian!</button></a>
+            </div>
+        </div>
+    </div>
 </div>
-	
+	<!--
 	<section id="contact"></section>
 	<div id="social">
 		<div class="container">
@@ -333,8 +341,8 @@
 					</div>
 				</div>
 			</div>
-		</div><!-- /container -->
-	</div><!-- /social -->
+		</div><!-- /container
+	</div>  -->
 
 <!-- FIN TEAM Prueba -->
 	<div id="f">
@@ -349,5 +357,21 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/bootstrap.js"></script>
+    <script>
+		$(document).ready(function(){
+		    $("#guillermoBtn").click(function(){
+		        $("#guillermoModal").modal("toggle");
+		    });
+		    $("#patrickBtn").click(function(){
+		        $("#patrickModal").modal("toggle");
+		    });
+		    $("#alexBtn").click(function(){
+		        $("#alexModal").modal("toggle");
+		    });
+		    $("#cristianBtn").click(function(){
+		        $("#cristianModal").modal("toggle");
+		    });
+		});
+	</script>
   </body>
 </html>

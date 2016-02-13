@@ -3582,7 +3582,6 @@ input[type="button"].btn-block {
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
   border-top: 0 dotted;
-  border-bottom: 4px solid #000000;
   content: "";
 }
 
@@ -4321,7 +4320,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
-  border: 1px solid transparent;
 }
 
 .navbar:before,
@@ -5112,7 +5110,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   font-size: 75%;
   font-weight: bold;
   line-height: 1;
-  color: #ffffff;
+  color: #ffffff;f
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -5987,6 +5985,7 @@ button.close {
   left: 0;
   z-index: 1040;
   display: none;
+  backdrop: true;
   overflow: auto;
   overflow-y: scroll;
 }
@@ -6010,7 +6009,7 @@ button.close {
 .modal-dialog {
   position: relative;
   z-index: 1050;
-  width: auto;
+  max-width: 100%;
   padding: 10px;
   margin-right: auto;
   margin-left: auto;
@@ -6018,9 +6017,9 @@ button.close {
 
 .modal-content {
   position: relative;
-  background-color: #ffffff;
-  border: 1px solid #999999;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #FFFFFF;
+  max-width: 80%;
+  margin: 10% auto;
   border-radius: 6px;
   outline: none;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
@@ -6051,7 +6050,7 @@ button.close {
 .modal-header {
   min-height: 16.428571429px;
   padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
 }
 
 .modal-header .close {
@@ -6071,8 +6070,7 @@ button.close {
 .modal-footer {
   padding: 19px 20px 20px;
   margin-top: 15px;
-  text-align: right;
-  border-top: 1px solid #e5e5e5;
+  text-align: center;
 }
 
 .modal-footer:before,
@@ -6110,11 +6108,13 @@ button.close {
 
 @media screen and (min-width: 768px) {
   .modal-dialog {
-    width: 600px;
+    max-width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
   }
   .modal-content {
+    max-width: 80%;
+    margin: 10% auto;
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
