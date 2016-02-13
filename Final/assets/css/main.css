@@ -221,8 +221,9 @@ a:after {
 
 
 .close {
+	opacity: 1;
 	background: #000000;
-	color: #000000;
+	color: #ffffff;
 	line-height: 25px;
 	position: absolute;
 	right: -12px;
@@ -239,7 +240,10 @@ a:after {
 	box-shadow: 1px 1px 3px #000;
 }
 
-.close:hover { background: #981814; }
+.close:hover { 
+	color: white;
+	background: #981814;
+	opacity: 1; }
 
 #trol .btn {
 	width:100%;
