@@ -158,7 +158,6 @@ a:after {
 	max-height:100%;
 }
 
-/* Foto */
 #foto h1{
 	margin-bottom: 75px;
 	margin-top: 50px;
@@ -202,7 +201,6 @@ a:after {
   max-height:100%;
   opacity:0;
 }
-
 
 /* About AViRT */
 #about {
@@ -300,6 +298,22 @@ a:after {
 	font-size: 18px;
 }
 
+#team .col-lg-3:hover{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-top:15px;
+  padding-left: 15px;
+  border-radius: 5px;
+  background: rgba(252,8,0,0.7);
+	-webkit-transition: background 0.4s ease-in;
+    -moz-transition: background 0.4s ease-in;
+    transition: background 0.4s ease-in;
+}
+
+#team a{
+	background-color: #f6f5f5;
+}
 
 /* App */
 #app {
@@ -321,24 +335,6 @@ a:after {
 	color: white;
 	font-weight: 400;
 	font-size: 18px;
-}
-
-
-/* Skills */
-#skills {
-	background-color: #4e4e4e;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	margin-top: 50px;
-}
-
-#skills h3 {
-	color: white;
-}
-
-#skills p {
-	color: white;
-	font-weight: 400;
 }
 
 /* Social Links */
@@ -385,24 +381,7 @@ img.icon-nav{
 	padding: 10px;
 }
 
-#team .col-lg-3:hover{
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-top:15px;
-  padding-left: 15px;
-  border-radius: 5px;
-  background: rgba(252,8,0,0.7);
-	-webkit-transition: background 0.4s ease-in;
-    -moz-transition: background 0.4s ease-in;
-    transition: background 0.4s ease-in;
-}
 
-
-
-#team a{
-	background-color: #f6f5f5;
-}
 
 .navbar-container{
 	margin-left: 5%;
@@ -414,6 +393,12 @@ img.icon-nav{
   height: 40px; /*same height as header*/
   margin-top: -40px; /*same height as header*/
   visibility: hidden;
+}
+
+.modal-body p{
+	font-family: "Raleway";
+	text-align: justify;
+	color: black;
 }
 
 
