@@ -129,7 +129,7 @@ a:after {
 
 .btn-theme {
 	color: #ffffff;
-	background-color: #74cfae;
+	background-color: #981814;
 	border-color: transparent;
 }
 
@@ -175,28 +175,48 @@ a:after {
 	margin: 40px;
 }
 #open-modal-Guillermo button{
-	margin-top: -100px;
+	margin-bottom: 25px;
+	margin-top:25px;
+}
+#open-modal-Guillermo p{
+	margin-right: 30px;
+	text-align: justify;
 }
 
 #open-modal-Patrick h3{
 	margin: 40px;
 }
 #open-modal-Patrick button{
-	margin-top: -100px;
+	margin-bottom: 25px;
+	margin-top:25px;
+}
+#open-modal-Patrick p{
+	margin-right: 30px;
+	text-align: justify;
 }
 
 #open-modal-Alex h3{
 	margin: 40px;
 }
 #open-modal-Alex button{
-	margin-top: -100px;
+	margin-top:25px;
+	margin-bottom: 25px;
+}
+#open-modal-Alex p{
+	margin-right: 30px;
+	text-align: justify;
 }
 
 #open-modal-Cristian h3{
 	margin: 40px;
 }
 #open-modal-Cristian button{
-	margin-top: -100px;
+	margin-bottom: 25px;
+	margin-top:25px;
+}
+#open-modal-Cristian p{
+	margin-right: 30px;
+	text-align: justify;
 }
 
 
@@ -219,7 +239,7 @@ a:after {
 	box-shadow: 1px 1px 3px #000;
 }
 
-.close:hover { background: #00d9ff; }
+.close:hover { background: #981814; }
 
 #trol .btn {
 	width:100%;
@@ -557,13 +577,7 @@ img.icon-nav{
   visibility: hidden;
 }
 
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-}
 
-#javascript{
-	
-}
+
+
 
