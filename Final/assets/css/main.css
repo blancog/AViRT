@@ -206,8 +206,7 @@ a:after {
 #about {
 	background-color: #981814;
 	padding-top: 50px;
-	margin-top: -50px;
-	padding-bottom: 10px;
+	padding-bottom: 50px;
 	margin: 0;
 	width:100%;
 	position:relative;
@@ -254,9 +253,8 @@ a:after {
 #team {
 	background-color: #f6f5f5;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 125px;
 	margin-bottom: 10px;
-	height: 100%;
 }
 
 #team h2 {
@@ -319,16 +317,16 @@ a:after {
 #app {
 	background-color: #981814;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 	margin-bottom: 10px;
 }
+
 
 #app h2 {
 	
 	font-family: "Raleway";
     font-weight: 300;
     color: white;
-    margin-bottom: 75px;
 }
 
 #app p {
@@ -338,12 +336,17 @@ a:after {
 }
 
 /* Social Links */
-#social {
-	width: 100%;
-	padding-top: 200px;
-	padding-bottom: 200px;
+#contact {
+	padding-top: 50px;
+	margin-bottom: 50px
 }
 
+#contact h2 {
+	
+	font-family: "Raleway";
+    font-weight: 300;
+    color: black;
+}
 #social i {
 	font-size: 50px;
 	color: #981814;
@@ -378,7 +381,7 @@ a:after {
 }
 
 img.icon-nav{
-	padding: 10px;
+	padding: 20px;
 }
 
 
