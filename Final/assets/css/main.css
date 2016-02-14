@@ -336,16 +336,20 @@ a:after {
 }
 
 /* Social Links */
-#contact {
+#social {
+
 	padding-top: 50px;
-	margin-bottom: 50px
+	padding-bottom: 100px;
+	margin-bottom: 10px;
+	height: 50%;
 }
 
-#contact h2 {
+#social h2 {
 	
 	font-family: "Raleway";
     font-weight: 300;
-    color: black;
+    color: #555;
+    margin-bottom: 75px
 }
 #social i {
 	font-size: 50px;
