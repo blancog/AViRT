@@ -215,7 +215,7 @@
 		<div class="row centered">
 			<div class="col-lg-8 col-lg-offset-2">
 				<div class="col-md-4">
-					<a href="#"><i class="fa fa-mobile"></i></a>
+					<a id="mobileBtn"><i class="fa fa-mobile"></i></a>
 				</div>
 				<div class="col-md-4">
 					<a href="#"><i class="fa fa-skype"></i></a>
@@ -225,7 +225,15 @@
 				</div>
 			</div>
 		</div>
-	</div>  -->
+	</div>
+
+	<div id="f">
+		<div class="container">
+			<div class="row">
+				<p>All rights reserved. Created by AViRT.</p>
+			</div>
+		</div>
+	</div>
 
 <!-- Modal -->
 <div id="guillermoModal" class="modal fade">
@@ -340,34 +348,28 @@
         </div>
     </div>
 </div>
-	<!--
-	<section id="contact"></section>
-	<div id="social">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-8 col-lg-offset-2">
-					<div class="col-md-4">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-					</div>
-					<div class="col-md-4">
-						<a href="#"><i class="fa fa-twitter"></i></a>
-					</div>
-					<div class="col-md-4">
-						<a href="#"><i class="fa fa-envelope"></i></a>
-					</div>
-				</div>
-			</div>
-		</div><!-- /container
-	</div>  -->
 
-<!-- FIN TEAM Prueba -->
-	<div id="f">
-		<div class="container">
-			<div class="row">
-				<p>All rights reserved. Created by AViRT.</p>
-			</div>
-		</div>
-	</div>
+<div id="avirtMobileModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content" id="email">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3>Contact AViRT</h3>
+            </div>
+            <div class="modal-body">
+				<div class="col-lg-12" align="center">
+					<h3>USA: </h3>
+				</div>
+				<div class="col-lg-12" align="center">
+					<h3>Spain: +34 628298837 </h3>
+				</div>
+            </div>
+            <div class="modal-footer" align="center">
+            </div>
+        </div>
+    </div>
+</div>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -389,6 +391,9 @@
 		    });
 		    $("#emailBtn").click(function(){
 		        $("#avirtEmailModal").modal("toggle");
+		    });
+		    $("#mobileBtn").click(function(){
+		        $("#avirtMobileModal").modal("toggle");
 		    });
 		});
 	</script>

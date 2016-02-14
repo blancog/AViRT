@@ -343,7 +343,6 @@ a:after {
 	padding-top: 50px;
 	padding-bottom: 100px;
 	margin-bottom: 10px;
-	height: 50%;
 }
 
 #social h2 {
@@ -368,7 +367,9 @@ a:after {
 
 /* Footer */
 #f {
-	padding-top: 20px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	margin-bottom: 10px;
 	background-color: #981814;
 }
 
