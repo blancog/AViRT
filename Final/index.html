@@ -67,7 +67,7 @@
 	<!-- /FOTO -->
 	<div id="foto">	
 	<div class="col-lg-12" align="center">
-		<h1>Augmented Virtuality has never been this easy!</h1>
+		<h1>Your new virtual studio</h1>
 	</div>
 		  <img src="assets/img/virtual1.jpg" />
 		  <img class="top" src="assets/img/normal1.jpg" />
@@ -83,11 +83,6 @@
 
 		<div class="container">
 			<div class="row">
-				<!--	
-			   <div class="col-lg-4" align="center">
-		          <img src="assets/img/avirt1.png" alt="AViRT" width="80%" >
-		        </div> -->
-
 			  <div class="col-lg-12" align="center">
 		    		
 		    		<h4>Augmented Virtuality in Real Time. The AViRT Mobile application is an android application currently designed for use with Google’s Project Tango. The use of real-time compositing allows users to place actors into virtual sets and record directly from the tablet or mobile device. Users are able to visualize their scene and capture complex shots as they move around the greenroom. The virtual environment will stay locked to the greenscreen in whichever position, angle or perspective the director seeks. AViRT features a simple and intuitive interface that takes moments to learn, even to users with no film or visual effects experience.</h4>
@@ -193,16 +188,16 @@
 		<div class="row centered mt grid">
 			<div class="mt"></div>
 			<div class="col-lg-3">
-				<a href="/Users/CristianCampo/Desktop/AViRT/Final/assets/files/timelineFinal.pdf" target="_blank"><img src="assets/img/01.jpg" alt="Paper"></a>
+				<a href="assets/files/timelineFinal.pdf" target="_blank"><img src="assets/img/01.jpg" alt="Paper"></a>
 			</div>
 			<div class="col-lg-3">
-				<a href="/Users/CristianCampo/Desktop/AViRT/Final/assets/files/storyboard.pdf" target="_blank"><img src="assets/img/02.jpg" alt="Timeline"></a>
+				<a href="assets/files/storyboard.pdf" target="_blank"><img src="assets/img/02.jpg" alt="Timeline"></a>
 			</div>
 			<div class="col-lg-3">
-				<a href="/Users/CristianCampo/Desktop/AViRT/Final/assets/files/paper.pdf" target="_blank"><img src="assets/img/03.jpg" alt="Mockups"></a>
+				<a href="assets/files/paper.pdf" target="_blank"><img src="assets/img/03.jpg" alt="Mockups"></a>
 			</div>
 			<div class="col-lg-3">
-				<a href="/Users/CristianCampo/Desktop/AViRT/Final/assets/files/mockups.pdf" target="_blank"><img src="assets/img/04.jpg" alt="Storyboard"></a>
+				<a href="assets/files/mockups.pdf" target="_blank"><img src="assets/img/04.jpg" alt="Storyboard"></a>
 			</div>
 		</div>
 		<div class="row mt centered">
@@ -226,7 +221,7 @@
 					<a href="#"><i class="fa fa-skype"></i></a>
 				</div>
 				<div class="col-md-4">
-					<a href="#"><i class="fa fa-envelope"></i></a>
+					<a id="emailBtn"><i class="fa fa-envelope"></i></a>
 				</div>
 			</div>
 		</div>
@@ -324,6 +319,27 @@
         </div>
     </div>
 </div>
+
+<div id="avirtEmailModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content" id="email">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3>Contact AViRT</h3>
+            </div>
+            <div class="modal-body">
+				<div class="col-lg-12" align="center">
+					<img src="assets/img/avirt.png" alt="Avirt" width="180" height="180" id="emailImg">
+				</div>
+				<div class="col-lg-12" align="center">
+					<a href="mailto:avirt3d@gmail.com"> <button type="button" class="btn btn-theme btn-md">Email AViRT!</button> </a>
+				</div>
+            </div>
+            <div class="modal-footer" align="center">
+            </div>
+        </div>
+    </div>
+</div>
 	<!--
 	<section id="contact"></section>
 	<div id="social">
@@ -370,6 +386,9 @@
 		    });
 		    $("#cristianBtn").click(function(){
 		        $("#cristianModal").modal("toggle");
+		    });
+		    $("#emailBtn").click(function(){
+		        $("#avirtEmailModal").modal("toggle");
 		    });
 		});
 	</script>
